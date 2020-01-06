@@ -24,30 +24,30 @@ func doubleScore(source float32) (score float32) {
 }
 
 //-----------------------
-var mu sync.RWMutex
+var mu104 sync.RWMutex
 var count int
 
 //当写锁阻塞时，新的读锁是无法申请的（有效防止写锁饥饿），导致死锁。
 func second_104() {
-	go A_104()
+	go a_104()
 	time.Sleep(2 * time.Second)
-	mu.Lock()
-	defer mu.Unlock()
+	mu104.Lock()
+	defer mu104.Unlock()
 	count++
 	fmt.Println(count)
 }
-func A_104() {
-	mu.RLock()
-	defer mu.RUnlock()
-	B_104()
+func a_104() {
+	mu104.RLock()
+	defer mu104.RUnlock()
+	b_104()
 }
-func B_104() {
+func b_104() {
 	time.Sleep(5 * time.Second)
-	C_104()
+	c_104()
 }
-func C_104() {
-	mu.RLock()
-	defer mu.RUnlock()
+func c_104() {
+	mu104.RLock()
+	defer mu104.RUnlock()
 }
 
 func main() {
