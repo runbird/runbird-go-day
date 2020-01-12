@@ -1,6 +1,7 @@
-//https://mp.weixin.qq.com/s?__biz=MzI2MDA1MTcxMg==&mid=2648466739&idx=4&sn=9de0eba9bdb36aa3b67d8a3903c53584&chksm=f247435cc530ca4a98abd9c1b2d58a63c7716e64236076c1296ed2964cd4fb68f7c8a6d44f85&scene=21#wechat_redirect
 package main
 
+//https://mp.weixin.qq.com/s?__biz=MzI2MDA1MTcxMg==&mid=2648466739&idx=3&sn=9a1c9599172a532297ef41238450f9af&chksm=f247435cc530ca4ac6d92bd22011b52ae34d25d6e0eddf5b2ba85a15d3846b6674aa8bcf1d07&scene=21#wechat_redirect
+//https://mp.weixin.qq.com/s?__biz=MzI2MDA1MTcxMg==&mid=2648466739&idx=4&sn=9de0eba9bdb36aa3b67d8a3903c53584&chksm=f247435cc530ca4a98abd9c1b2d58a63c7716e64236076c1296ed2964cd4fb68f7c8a6d44f85&scene=21#wechat_redirect
 import "fmt"
 
 //nil切片: 这段代码声明了一个nil切片s，其实，切片的零值就是nil
