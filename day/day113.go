@@ -15,7 +15,7 @@ func first_113() {
 	fmt.Println(*twohundred)
 }
 
-func first_113_2() {
+func fix_first_113() {
 	x := make([]int, 0, 7)
 	x = append(x, 100, 200, 300, 400, 500, 600, 700)
 	twohundred := &x[1]
